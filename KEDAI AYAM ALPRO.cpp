@@ -40,10 +40,10 @@ int main() {
 		}
 		cout << breakl;
 		cout << "Hasil Pesanan:\n";
-		cout << m1 << " Ayam Goreng\n";
-		cout << m2 << " Ayam Bakar\n";
+		cout << m1 << " Ayam Goreng\tRp" << m1 * 17000 << endl;
+		cout << m2 << " Ayam Bakar\tRp" << m2 * 21000 << endl;
 		if (total > 45000) {
-			cout << "(Diskon 10% = Rp" << 0.1 * total << ")\n";
+			cout << "(Diskon 10% = -Rp" << 0.1 * total << ")\n";
 			total *= 0.9;
 		}
 		cout << "Total Harga = Rp" << total;
